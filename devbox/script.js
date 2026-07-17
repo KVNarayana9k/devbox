@@ -30,3 +30,10 @@ function changeIcon(element) {
     }
 
 }
+
+document.querySelectorAll(".dropdown-item").forEach(item => {
+    item.addEventListener("click", function () {
+        document.getElementById("meetingBtn").innerHTML =
+            this.innerHTML + ' <span class="caret"></span>';
+    });
+});

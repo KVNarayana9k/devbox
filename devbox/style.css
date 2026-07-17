@@ -55,6 +55,23 @@ body {
     font-size: 12px;
     padding: 0;
 }
+.dropdown-menu {
+    margin-top: 6px;
+    min-width: 130px;
+    padding: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0,0,0,.15);
+}
+
+.dropdown-item {
+    font-size: 12px;
+    padding: 6px 12px;
+}
+
+.dropdown-item:hover {
+    background: #129447;
+    color: #fff;
+}
 @media (max-width: 426px) {
     .meeting-tabs {
         left: 158px;

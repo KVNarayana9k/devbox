@@ -55,6 +55,11 @@ body {
     font-size: 12px;
     padding: 0;
 }
+@media (max-width: 426px) {
+    .meeting-tabs {
+        left: 158px;
+    }
+}
 
 /* date */
 .date-box {
